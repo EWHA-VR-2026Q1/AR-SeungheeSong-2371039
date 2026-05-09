@@ -1,0 +1,47 @@
+{
+  "player_build_data": [
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "640f47b9c002d4fdf83271ad29224a51",
+        "build_player": 50331,
+        "preprocess_player": 280,
+        "produce_player_script_assemblies": 6746,
+        "build_scripts_dlls": 19,
+        "writing_asset_files": 9470,
+        "postprocess_built_player": 23115,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 322
+          },
+          {
+            "name": "Csc",
+            "duration": 690
+          },
+          {
+            "name": "Csc",
+            "duration": 260
+          },
+          {
+            "name": "Csc",
+            "duration": 99
+          },
+          {
+            "name": "Csc",
+            "duration": 260
+          },
+          {
+            "name": "UnityLinker.exe",
+            "duration": 5761
+          },
+          {
+            "name": "il2cpp.exe",
+            "duration": 8996
+          }
+        ]
+      },
+      "version": 1
+    }
+  ]
+}

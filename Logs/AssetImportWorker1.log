@@ -319,3 +319,789 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 3.70 ms, found 5 plugins.
+Preloading 4 native plugins for Editor in 12.22 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (126.9 KB). Loaded Objects now: 2124.
+Memory consumption went from 69.5 MB to 69.4 MB.
+Total: 3.204583 ms (FindLiveObjects: 0.093459 ms CreateObjectMapping: 0.035084 ms MarkObjects: 2.980291 ms  DeleteObjects: 0.095208 ms)
+
+Prepare: number of updated asset objects reloaded= 31
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
+Preloading 4 native plugins for Editor in 12.48 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (127.0 KB). Loaded Objects now: 2124.
+Memory consumption went from 68.6 MB to 68.5 MB.
+Total: 3.163292 ms (FindLiveObjects: 0.090000 ms CreateObjectMapping: 0.032625 ms MarkObjects: 2.952708 ms  DeleteObjects: 0.087458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16e5c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.285 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 840ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (29ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.66 ms, found 5 plugins.
+Preloading 4 native plugins for Editor in 14.25 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (135.5 KB). Loaded Objects now: 2125.
+Memory consumption went from 92.4 MB to 92.3 MB.
+Total: 3.868458 ms (FindLiveObjects: 0.102709 ms CreateObjectMapping: 0.038417 ms MarkObjects: 3.596500 ms  DeleteObjects: 0.130291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9391.277780 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '976c9adc47e650aa6f3a1e2106aae59e') in 0.242545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 458
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Common/Icons/Android/Icon-96.png
+  artifactKey: Guid(827b731c62d8d42c093899fa44179bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/Icon-96.png using Guid(827b731c62d8d42c093899fa44179bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b94d6c04076975133abad656e27a633') in 0.047364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Common/Icons/iOS/Icon-50.png
+  artifactKey: Guid(b7afc2dad7a944b10a7460688d192721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-50.png using Guid(b7afc2dad7a944b10a7460688d192721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '782fb45e510b818cc853726c17399f2f') in 0.011727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32_altform-unplated.png
+  artifactKey: Guid(0111c6de67d88a54a8efc64cefb31d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32_altform-unplated.png using Guid(0111c6de67d88a54a8efc64cefb31d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2bacbb54ecabfd013c30c8dfce762aef') in 0.008889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-125.png
+  artifactKey: Guid(59dda8d2a77909a40972092e475d6508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-125.png using Guid(59dda8d2a77909a40972092e475d6508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c8af832e1f1bcced2dfac42270cadcfa') in 0.008657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Common/Icons/iOS/Icon-48.png
+  artifactKey: Guid(5b6408b8fcc554852ba035c9cb16aad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-48.png using Guid(5b6408b8fcc554852ba035c9cb16aad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '264bb88eb2cf4172e41974355f6fecd1') in 0.010315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Common/Icons/iOS/Icon-196.png
+  artifactKey: Guid(38c9f8f898d5a461397639d3a61e1428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-196.png using Guid(38c9f8f898d5a461397639d3a61e1428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2574919219fa0fc462a59c521f63134b') in 0.009364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Common/Icons/iOS/Icon-120.png
+  artifactKey: Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-120.png using Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62c0cb1a4ce627e7f75bba31664e31bf') in 0.009522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SamplesResources/InstantImageTarget/Astronaut.jpg
+  artifactKey: Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/InstantImageTarget/Astronaut.jpg using Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42ead0448a28f2c3ba8f807f6a409e00') in 0.011854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-100.png
+  artifactKey: Guid(ed30e1100779be246bc70a1a3d6d870e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-100.png using Guid(ed30e1100779be246bc70a1a3d6d870e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '822f06a4205659da1bcb702213648659') in 0.008504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png
+  artifactKey: Guid(80c6bdebc69e9c44c829e3bca05b8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png using Guid(80c6bdebc69e9c44c829e3bca05b8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0eb3a931c7f5fa16406e003190f3c4fe') in 0.009089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Common/Icons/iOS/Icon-100.png
+  artifactKey: Guid(65c4e7c74b99141b58dfa4d259a65444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-100.png using Guid(65c4e7c74b99141b58dfa4d259a65444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '29b64ae39b842057dcab619178a4bfda') in 0.010966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Common/Icons/iOS/Icon-58.png
+  artifactKey: Guid(753491ea5c3de4f928409d7f8e96b80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-58.png using Guid(753491ea5c3de4f928409d7f8e96b80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3833aedde6370af5a4ecf15a47d607c') in 0.010936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Common/Icons/iOS/Icon-80.png
+  artifactKey: Guid(b36a145ee04964f5a8fbc998f53ad10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-80.png using Guid(b36a145ee04964f5a8fbc998f53ad10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e79bc29f2357b87c04bb51074c4e10d8') in 0.012945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png
+  artifactKey: Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png using Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0422b7fab2a6f7771996e71e2cbb6a81') in 0.012426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-200.png
+  artifactKey: Guid(36f30904fd6d601448721d9b73ae2a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-200.png using Guid(36f30904fd6d601448721d9b73ae2a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '52badd2ce14f6618fa8042c011a2d758') in 0.015962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png
+  artifactKey: Guid(05c52f9c5a216444c868677a0e02efb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png using Guid(05c52f9c5a216444c868677a0e02efb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6a6e6e7a55cf3c400732bc1076e1892') in 0.011642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png
+  artifactKey: Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png using Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d75ab1f756a9f7267780c5171a020f6') in 0.011868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-125.png
+  artifactKey: Guid(e2c21437fb4c76a45843bd3844beccd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-125.png using Guid(e2c21437fb4c76a45843bd3844beccd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54731d0e37ca5bfc04cee90b659c0f12') in 0.012054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Common/Icons/iOS/Icon-88.png
+  artifactKey: Guid(c352bbf5f1c324a93a0758d8b4d8d0e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-88.png using Guid(c352bbf5f1c324a93a0758d8b4d8d0e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5cce30f7a609da44f2980ee8a3b6aebb') in 0.013311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat
+  artifactKey: Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat using Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22788915b002a6d43c7af7f3fdb4e987') in 0.068534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png
+  artifactKey: Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png using Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cbdd942202e722ccefa94231d6ef5ada') in 0.014168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat
+  artifactKey: Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat using Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4808f41f0143a6d77ff00406b4694e42') in 0.005059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-200.png
+  artifactKey: Guid(a771727a661b21f4ebfeb8e45ebf91f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-200.png using Guid(a771727a661b21f4ebfeb8e45ebf91f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3a9ec1fd952fbda504754d310c65b72') in 0.012061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png
+  artifactKey: Guid(6a6b79f5650d25f42ac759d805690a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png using Guid(6a6b79f5650d25f42ac759d805690a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '68414c681cf1712fe656a69791cc2088') in 0.014536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png
+  artifactKey: Guid(1e5b140256bfa3f4cb79cb0a883bda91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png using Guid(1e5b140256bfa3f4cb79cb0a883bda91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1da9b8f632e2e39f5590dbeac701ea0e') in 0.012283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Common/Icons/iOS/Icon-172.png
+  artifactKey: Guid(9caa22d79a15a41e8affca63c0536a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-172.png using Guid(9caa22d79a15a41e8affca63c0536a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4902917fc7112de8d22b817f9a901287') in 0.013739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48.png
+  artifactKey: Guid(41a64cc3991df9e438d22a31c2021c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48.png using Guid(41a64cc3991df9e438d22a31c2021c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3fdb136c6b8a4743efeb82776e4599d8') in 0.012407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png
+  artifactKey: Guid(7eca3d19b080dd544a88b979ec2afe03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png using Guid(7eca3d19b080dd544a88b979ec2afe03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a1a96c37f6320771cf4cdd40e8d1155') in 0.012468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-100.png
+  artifactKey: Guid(7178846d9e148114fa77596ba389de00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-100.png using Guid(7178846d9e148114fa77596ba389de00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9612167f784beaa4e74ad3b2f9107936') in 0.011758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x081.png
+  artifactKey: Guid(626c896dc88974a9fb360ba573bb43e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x081.png using Guid(626c896dc88974a9fb360ba573bb43e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6eb6dc77e20c39419ef482b0f7cc2353') in 0.013574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png
+  artifactKey: Guid(9d5211ed26764d54b9ea824f8539e34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png using Guid(9d5211ed26764d54b9ea824f8539e34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b5bd5a54301e5295e471dd94959fb52f') in 0.015643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png
+  artifactKey: Guid(9e2c6506d384576438a3d63b7c15a533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png using Guid(9e2c6506d384576438a3d63b7c15a533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd0efc78b901beb639ef734e74958296') in 0.012328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x324.png
+  artifactKey: Guid(2c78137d6929a46249f124bad6c3c8a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x324.png using Guid(2c78137d6929a46249f124bad6c3c8a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6f376983d0a666045d5cc22ff4d77b1') in 0.019317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-150.png
+  artifactKey: Guid(7d5e86f5a250c9341a346f980ee1a48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-150.png using Guid(7d5e86f5a250c9341a346f980ee1a48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0514b1fadb3eb64b285b219266ae055') in 0.013135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-400.png
+  artifactKey: Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-400.png using Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e486575bf6eaae480091ef4c63ad1e71') in 0.013609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Common/Icons/iOS/Icon-144.png
+  artifactKey: Guid(fe2bd0f39a09244c993553fc1df45073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-144.png using Guid(fe2bd0f39a09244c993553fc1df45073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9aefe3c2e38c7fd87e08ca2c2f1f14ec') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat
+  artifactKey: Guid(175fca8ff17e17d4cb0f527c89b3d392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat using Guid(175fca8ff17e17d4cb0f527c89b3d392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5a2073ce020a8e8e7d99af60ab7b1f2') in 0.005655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003441 seconds.
+  path: Assets/Common/Icons/iOS/Icon-29.png
+  artifactKey: Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-29.png using Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd85fd857936867faf9884b7d289c3cbd') in 0.015762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Common/Icons/iOS/Icon-152.png
+  artifactKey: Guid(6cb233dc65f0b459daf2ad80d17034da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-152.png using Guid(6cb233dc65f0b459daf2ad80d17034da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8193b4abbaf52d194246b8abf2a8fb4') in 0.013553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-100.png
+  artifactKey: Guid(de5a9ac105040ee4c8837f65201981bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-100.png using Guid(de5a9ac105040ee4c8837f65201981bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0aeec56b7d7ea4e04f21d6a901253f94') in 0.021082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002706 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-150.png
+  artifactKey: Guid(cbc78ebd8481d1348bb52ac89270c806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-150.png using Guid(cbc78ebd8481d1348bb52ac89270c806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b5a49c163d2a4721817c8440ea110038') in 0.019887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001050 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x162.png
+  artifactKey: Guid(02ad1a4d05ea64249bdee469ef9fe40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x162.png using Guid(02ad1a4d05ea64249bdee469ef9fe40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e44368031410dfbb8e5211f5fffeeacc') in 0.030871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011034 seconds.
+  path: Assets/Common/Icons/iOS/Icon-167.png
+  artifactKey: Guid(4cbc9362b367d44d58da2b6146f50c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-167.png using Guid(4cbc9362b367d44d58da2b6146f50c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4fc0b69a3351689866b6b993078de58') in 0.020611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Common/Icons/UWP/StoreLogo.scale-125.png
+  artifactKey: Guid(7b864b76c36e32049bef916c10669b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/StoreLogo.scale-125.png using Guid(7b864b76c36e32049bef916c10669b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92793922d7f0f1eded343e00e6aca80f') in 0.013851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png
+  artifactKey: Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png using Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f9e4eae366927abbfc0ccceea4ae330') in 0.014900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001585 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png
+  artifactKey: Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png using Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15d646eb24eb7c7115f1ebd00d64490e') in 0.016802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003612 seconds.
+  path: Assets/Common/Icons/iOS/Icon-114.png
+  artifactKey: Guid(4425ccef1413140a09233e0eba47657d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-114.png using Guid(4425ccef1413140a09233e0eba47657d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2b00d188446a78c61d218b04923da32') in 0.022028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-200.png
+  artifactKey: Guid(dc0c88983e4b2ff4d83f33cc3b907c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-200.png using Guid(dc0c88983e4b2ff4d83f33cc3b907c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c7c34174dd6c4448bb2b1dc4a95f1ff') in 0.016822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-150.png
+  artifactKey: Guid(51bc692c6beb5914b8d8c75c01d6ceee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-150.png using Guid(51bc692c6beb5914b8d8c75c01d6ceee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e775ebaa782daa2f9a460f75ec8e5955') in 0.017201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001546 seconds.
+  path: Assets/Common/Icons/Android/Icon-512.png
+  artifactKey: Guid(8d26e2b0041c2447d9888ac10b3aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/Icon-512.png using Guid(8d26e2b0041c2447d9888ac10b3aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0536b7edc063f2d3c9577c6fa865671b') in 0.016668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.29 ms, found 5 plugins.
+Preloading 4 native plugins for Editor in 13.40 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (188.3 KB). Loaded Objects now: 2128.
+Memory consumption went from 78.8 MB to 78.6 MB.
+Total: 14.972958 ms (FindLiveObjects: 0.104542 ms CreateObjectMapping: 0.037792 ms MarkObjects: 14.689167 ms  DeleteObjects: 0.140917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16e5c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.296 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 750ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.18 ms, found 5 plugins.
+Preloading 4 native plugins for Editor in 12.42 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (136.6 KB). Loaded Objects now: 2128.
+Memory consumption went from 101.9 MB to 101.7 MB.
+Total: 3.440375 ms (FindLiveObjects: 0.095958 ms CreateObjectMapping: 0.037417 ms MarkObjects: 3.187750 ms  DeleteObjects: 0.118791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+[usbmuxd] Detached: 2 00008110-000874DA3C41401E
+[usbmuxd] Attached: 3 00008110-000874DA3C41401E
+[usbmuxd] Detached: 3 00008110-000874DA3C41401E
+[usbmuxd] Attached: 4 00008110-000874DA3C41401E
+[usbmuxd] Detached: 4 00008110-000874DA3C41401E
+[usbmuxd] Attached: 5 00008110-000874DA3C41401E
