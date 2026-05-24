@@ -64,10 +64,106 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/VuforiaLicense.cs" />
+    <Compile Include="Assets/Player_InputSystem/InterfaceBase_IInteractable.cs" />
+    <Compile Include="Assets/Player_InputSystem/SO_ItemData.cs" />
+    <Compile Include="Assets/Player_InputSystem/ContinuousMoveController_PC.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Mount.cs" />
+    <Compile Include="Assets/EX_GoogleMap/EX_GoogleMap.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_Lerp.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_IContinuousMoveInput.cs" />
+    <Compile Include="Assets/Player_Demo_SaveData/TransformData.cs" />
+    <Compile Include="Assets/Player_InputSystem/SO_PlatformData.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_ILookInput.cs" />
+    <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_IInteractable.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Grabable.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_GameObject.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_LifeCycle.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item_Pistol.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_IPointing.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Bullet.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_IGrab.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_Snap.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Print.cs" />
+    <Compile Include="Assets/Player_InputSystem/ContinuousMoveBehavior.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Text.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Clone.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Video.cs" />
+    <Compile Include="Assets/EX_Vuforia_Test/EX_PointTest_LoadScene.cs" />
+    <Compile Include="Assets/Player_InputSystem/PlatformRigReference.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Scene.cs" />
+    <Compile Include="Assets/Player_InputSystem/PointingBehavior.cs" />
+    <Compile Include="Assets/Player_InputSystem/InterfaceBase_IItem.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item_Camera.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Animation.cs" />
+    <Compile Include="Assets/Player_InputSystem/PlayerManager.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Mouse.cs" />
+    <Compile Include="Assets/Player_InputSystem/PointingController_PC.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item_Flash.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_PhysicalKeyButton.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_Drag.cs" />
+    <Compile Include="Assets/Player_Demo_SaveData/Data_Controller.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_LookAt.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Outline.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_Collision.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Pistol.cs" />
+    <Compile Include="Assets/Player_InputSystem/GrabController_PC.cs" />
+    <Compile Include="Assets/Player_Demo_SaveData/Actor_DataSaverLoader.cs" />
+    <Compile Include="Assets/Player_InputSystem/UIInteractableAdapter.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Flash.cs" />
+    <Compile Include="Assets/Player_Demo_SaveData/SaveableEntity.cs" />
+    <Compile Include="Assets/Player_InputSystem/GrabBehavior.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Timeline.cs" />
+    <Compile Include="Assets/EX_Vuforia_Test/EX_PointTest_JumpToTimelineMarker.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item_Rifle.cs" />
+    <Compile Include="Assets/Player_InputSystem/TeleportController_PC.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Color.cs" />
+    <Compile Include="Assets/Player_InputSystem/ItemBehavior.cs" />
+    <Compile Include="Assets/EX_GPS/EX_GPS.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_IItem.cs" />
+    <Compile Include="Assets/Player_InputSystem/LookBehavior.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Audio.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_Timer.cs" />
+    <Compile Include="Assets/Player_Interactions/Trigger_PhysicalMousePointer.cs" />
+    <Compile Include="Assets/Player_InputSystem/Interface_ITeleportInput.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Rifle.cs" />
+    <Compile Include="Assets/Player_InputSystem/TeleportBehavior.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Camera.cs" />
+    <Compile Include="Assets/Player_InputSystem/ItemController_PC.cs" />
+    <Compile Include="Assets/Player_Demo_SaveData/WorldData.cs" />
+    <Compile Include="Assets/Player_InputSystem/LookController_PC.cs" />
+    <Compile Include="Assets/QuickOutline/Scripts/Outline.cs" />
+    <Compile Include="Assets/Player_Interactions/Actor_Item_WeaponTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Resources/alpha.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/QuickOutline/Resources/Shaders/OutlineMask.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/QuickOutline/Readme.txt" />
+    <None Include="Assets/StreamingAssets/Vuforia/DB2026.xml" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/StreamingAssets/Vuforia/VuforiaMars_Images.xml" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/QuickOutline/Resources/Shaders/OutlineFill.shader" />
+    <None Include="Assets/UnityTechnologies/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -930,12 +1026,16 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VuforiaEditorScripts">
@@ -946,12 +1046,24 @@
       <HintPath>Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
