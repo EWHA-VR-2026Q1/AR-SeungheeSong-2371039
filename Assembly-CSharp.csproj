@@ -131,6 +131,7 @@
     <Compile Include="Assets/Player_InputSystem/TeleportBehavior.cs" />
     <Compile Include="Assets/Player_Interactions/Actor_Camera.cs" />
     <Compile Include="Assets/Player_InputSystem/ItemController_PC.cs" />
+    <Compile Include="Assets/HW21_Canvas/ButtonTextChanger.cs" />
     <Compile Include="Assets/Player_Demo_SaveData/WorldData.cs" />
     <Compile Include="Assets/Player_InputSystem/LookController_PC.cs" />
     <Compile Include="Assets/QuickOutline/Scripts/Outline.cs" />
