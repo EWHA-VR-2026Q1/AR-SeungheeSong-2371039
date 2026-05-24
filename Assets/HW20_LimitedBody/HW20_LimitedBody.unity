@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 474548226}
   - component: {fileID: 474548231}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CubeTap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
