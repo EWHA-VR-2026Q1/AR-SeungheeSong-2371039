@@ -1,90 +1,90 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
-using UnityEngine.SceneManagement; // 씬 이름을 가져오기 위해 추가
-
-// ... (TransformData, WorldData 정의는 기존과 동일)
+using UnityEngine.SceneManagement;
 
 public class Actor_DataSaverLoader : MonoBehaviour
 {
     [Header("Objects To Save")]
     public List<GameObject> targetObjects = new List<GameObject>();
 
-    // [수정] 고정된 savePath 대신 현재 씬 이름을 기반으로 경로를 반환하는 프로퍼티를 씁니다.
-    private string GetSavePath()
-    {
-        // 예: 현재 씬 이름이 "Stage_01" 이라면 "Stage_01_worldData.json"으로 저장됨
-        string currentSceneName = SceneManager.GetActiveScene().name;
-        return Path.Combine(Application.persistentDataPath, currentSceneName + "_worldData.json");
-    }
+    [Header("Player To Save")]
+    public GameObject playerObject; // Character_PC_Quest 드래그
 
-    private void Awake()
-    {
-        // [수정] 기존 Awake나 Start에 있던 savePath = ... 지우기 (지워도 무방)
-    }
+    private string GetSavePath()
+{
+    return Path.Combine(Application.persistentDataPath, "HW23_worldData.json");
+}
 
     public void Act_SaveData()
     {
-        if (targetObjects.Count == 0) return; // 저장할 대상이 없으면 스킵
-
         WorldData data = new WorldData();
 
+        // 플레이어 저장
+        if (playerObject != null)
+        {
+            data.objects.Add(new TransformData
+            {
+                objectName = "__PLAYER__",
+                position = playerObject.transform.position,
+                rotation = playerObject.transform.rotation
+            });
+        }
+
+        // 오브젝트 저장
         foreach (GameObject obj in targetObjects)
         {
             if (obj == null) continue;
-
-            TransformData t = new TransformData();
-            t.objectName = obj.name;
-            t.position = obj.transform.position;
-            t.rotation = obj.transform.rotation;
-
-            data.objects.Add(t);
+            data.objects.Add(new TransformData
+            {
+                objectName = obj.name,
+                position = obj.transform.position,
+                rotation = obj.transform.rotation
+            });
         }
 
-        string json = JsonUtility.ToJson(data, true);
-        
-        // [수정] 실시간 씬 이름 경로로 저장
-        string path = GetSavePath();
-        File.WriteAllText(path, json);
-
-        Debug.Log($"[{SceneManager.GetActiveScene().name}] 저장 완료! 경로: {path}");
+        File.WriteAllText(GetSavePath(), JsonUtility.ToJson(data, true));
+        Debug.Log("저장 완료: " + GetSavePath());
     }
 
     public void Act_LoadData()
     {
-        // [수정] 실시간 씬 이름 경로에서 가져옴
         string path = GetSavePath();
-
         if (!File.Exists(path))
         {
-            // ★ 매우 중요: 이 씬을 처음 방문했거나 파일이 없다면 기존 배치 상태 그대로 놔둡니다.
-            Debug.Log($"[{SceneManager.GetActiveScene().name}] 처음 방문한 씬이거나 세이브 파일이 없어 기본 위치를 유지합니다.");
+            Debug.Log("세이브 파일 없음 - 기본 위치 유지");
             return;
         }
 
-        string json = File.ReadAllText(path);
-        WorldData data = JsonUtility.FromJson<WorldData>(json);
+        WorldData data = JsonUtility.FromJson<WorldData>(File.ReadAllText(path));
+        if (data == null) return;
 
-        if (data == null || data.objects == null) return;
+        var map = new Dictionary<string, TransformData>();
+        foreach (var t in data.objects)
+            if (!map.ContainsKey(t.objectName)) map[t.objectName] = t;
 
-        Dictionary<string, TransformData> savedDataMap = new Dictionary<string, TransformData>();
-        foreach (var savedObject in data.objects)
+        // 플레이어 복원
+        if (playerObject != null && map.TryGetValue("__PLAYER__", out TransformData pd))
         {
-            if (!savedDataMap.ContainsKey(savedObject.objectName))
-            {
-                savedDataMap.Add(savedObject.objectName, savedObject);
-            }
+            playerObject.transform.position = pd.position;
+            playerObject.transform.rotation = pd.rotation;
+
+            // CharacterController가 있으면 비활성화 후 이동
+            var cc = playerObject.GetComponent<CharacterController>();
+            if (cc != null) cc.enabled = false;
+            playerObject.transform.position = pd.position;
+            if (cc != null) cc.enabled = true;
         }
 
+        // 오브젝트 복원
         foreach (GameObject obj in targetObjects)
         {
             if (obj == null) continue;
-
-            if (savedDataMap.TryGetValue(obj.name, out TransformData targetData))
+            if (map.TryGetValue(obj.name, out TransformData td))
             {
-                obj.transform.position = targetData.position;
-                obj.transform.rotation = targetData.rotation;
-                
+                obj.transform.position = td.position;
+                obj.transform.rotation = td.rotation;
+
                 if (obj.TryGetComponent<Rigidbody>(out Rigidbody rb))
                 {
                     rb.velocity = Vector3.zero;
@@ -93,17 +93,17 @@ public class Actor_DataSaverLoader : MonoBehaviour
             }
         }
 
-        Debug.Log($"[{SceneManager.GetActiveScene().name}] 로드 완료!");
+        Debug.Log("로드 완료!");
     }
 
-    // 초기화 함수도 현재 씬 파일만 지우도록 수정
     public void Act_ResetAndClearData()
     {
         string path = GetSavePath();
-        if (File.Exists(path))
-        {
-            File.Delete(path);
-            Debug.Log($"{SceneManager.GetActiveScene().name} 씬의 데이터가 초기화되었습니다.");
-        }
+        if (File.Exists(path)) File.Delete(path);
+        Debug.Log("데이터 초기화 완료");
     }
+
+    // 자동 저장 (앱 종료/정지 시)
+    private void OnApplicationPause(bool pause) { if (pause) Act_SaveData(); }
+    private void OnApplicationQuit() { Act_SaveData(); }
 }

@@ -109,21 +109,26 @@ public class Data_Controller : MonoBehaviour
         }
     }
 
-    private void CollectSaveableEntities()
-    {
-        if (DataActor == null) return;
+   private void CollectSaveableEntities()
+{
+    if (DataActor == null) return;
 
-        SaveableEntity[] targets = FindObjectsByType<SaveableEntity>(FindObjectsSortMode.None);
-        
-        DataActor.targetObjects = new List<GameObject>();
-        foreach (var target in targets)
-        {
-            if (target != null)
-            {
-                DataActor.targetObjects.Add(target.gameObject);
-            }
-        }
+    SaveableEntity[] targets = FindObjectsByType<SaveableEntity>(FindObjectsSortMode.None);
+    
+    DataActor.targetObjects = new List<GameObject>();
+    foreach (var target in targets)
+    {
+        if (target != null)
+            DataActor.targetObjects.Add(target.gameObject);
     }
+
+    // 플레이어 자동 찾기 추가
+    if (DataActor.playerObject == null)
+    {
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null) DataActor.playerObject = player;
+    }
+}
 
     // 앱이 꺼지거나 백그라운드로 갈 때는 오브젝트가 살아있으므로 기존 로직 유지
     private void OnApplicationFocus(bool focus)

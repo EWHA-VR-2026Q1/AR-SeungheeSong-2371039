@@ -1723,7 +1723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1112988074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2682,7 +2682,7 @@ GameObject:
   - component: {fileID: 1662937419}
   - component: {fileID: 1662937418}
   - component: {fileID: 1662937417}
-  m_Layer: 3
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2780,11 +2780,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1582179144063165507, guid: 47957e6c6f7fad249861b7ba6aa64ef8,
-        type: 3}
-      propertyPath: InteractableLayer.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 2251042709863455011, guid: 47957e6c6f7fad249861b7ba6aa64ef8,
         type: 3}
       propertyPath: m_IsActive
@@ -3132,7 +3127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1838555867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3418,7 +3413,7 @@ GameObject:
   - component: {fileID: 2035414669}
   - component: {fileID: 2035414671}
   - component: {fileID: 2035414670}
-  m_Layer: 3
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

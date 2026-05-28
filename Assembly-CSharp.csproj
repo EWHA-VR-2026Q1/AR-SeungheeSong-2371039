@@ -101,9 +101,11 @@
     <Compile Include="Assets/Player_Interactions/Actor_Mouse.cs" />
     <Compile Include="Assets/Player_InputSystem/PointingController_PC.cs" />
     <Compile Include="Assets/Player_Interactions/Actor_Item_Flash.cs" />
+    <Compile Include="Assets/EX_ObjectAsInterface/Actor_MobileKeyboard.cs" />
     <Compile Include="Assets/Player_Interactions/Trigger_PhysicalKeyButton.cs" />
     <Compile Include="Assets/Player_Interactions/Trigger_Drag.cs" />
     <Compile Include="Assets/Player_Demo_SaveData/Data_Controller.cs" />
+    <Compile Include="Assets/HW23_DataSaveLoad/SaveLoadUI.cs" />
     <Compile Include="Assets/Player_Interactions/Actor_LookAt.cs" />
     <Compile Include="Assets/Player_Interactions/Actor_Outline.cs" />
     <Compile Include="Assets/Player_Interactions/Trigger_Collision.cs" />
